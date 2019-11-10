@@ -1,0 +1,20 @@
+<div style="text-align:center">
+  <h1>
+    เตี๋ยวยาย 4.0
+  </h1>
+</div>
+
+<label>
+  <input #customerInput>
+</label>
+
+<router-outlet>
+  <nav>
+    <a [routerLink]="[ '/menu' ]" routerLinkActive="active">Menu</a> <h1>{{order}}</h1>
+    <button (click)="plus()" > Plus one </button>
+  </nav>
+</router-outlet>
+
+
+
+
